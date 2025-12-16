@@ -47,7 +47,7 @@ export default function PasswordScreen() {
     setDisplayedText('');
   };
 
-  const fullMessage = "Hi! I just want to say thank you so much for everything and for the time you spent with me, kahit medyo natatakot na ako HAHAHHAHAHA but yeah, really thank you";
+  const fullMessage = "Hiiiiiii! I just want to say thank you so much for everything and for the time you spent with me, kahit medyo natatakot na ako HAHAHHAHAHA kadeee joke lang but yeah, really thank you";
 
   useEffect(() => {
     if (cardOpened && displayedText.length < fullMessage.length) {
