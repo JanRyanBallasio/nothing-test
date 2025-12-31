@@ -47,7 +47,7 @@ export default function PasswordScreen() {
     setDisplayedText('');
   };
 
-  const fullMessage = "Hiiiiiii! I just want to say thank you so much for everything and for the time you spent with me, kahit medyo natatakot na ako HAHAHHAHAHA kadeee joke lang but yeah, really thank you";
+  const fullMessage = "Hiiii, good morning! Alam ko maaga pa para sa ganitong usapan, and maybe hindi rin ako yung ideal type mo, pero gusto ko lang maging honest sa nararamdaman ko. I’d really love to take the chance, kasi ikaw yung taong worth it sugalan. If okay sayo, pwede ko ba sanang subukang ligawan ka nang maayos? Siyempre, kung sakali man, I’ll make sure to do it respectfully. I’ll even ask permission from your parents first, pero gusto ko munang ikaw ang mauna kong tanungin. Wala talagang pressure and you don’t have to answer now. I totally understand if you need time or if hindi ka pa ready. I’m willing to wait patiently, kahit gaano pa katagal, kasi hindi naman minamadali ang mga bagay na mahalaga. As long as may kahit konting chance, I’ll stay and wait. Promise. 🥹💗";
 
   useEffect(() => {
     if (cardOpened && displayedText.length < fullMessage.length) {
